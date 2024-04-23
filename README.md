@@ -1,40 +1,70 @@
-This is a full-stack dApp containing smart contract with a front-end.
+# Getting Started with Create React App
 
-Create React App:
- • Use Create React App to set up your frontend project.
- • Run npx create-react-app my-dapp to create a new React app.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Install necessary dependencies:
- • npm i npm start
+## Available Scripts
 
-  Authentication Page:
- • An Authentication component with Sign In and Register buttons.
- • Implemented navigation to the Registration and Sign In pages.
+In the project directory, you can run:
 
-  Registration Page:
- • A Registration component that generates a wallet address and balance for the user.
- • Using the local storage from the web console to store the wallet address, balance, and password.
+### `npm start`
 
-  Sign In Page:
- • A Sign In component where users can pass their wallet address and password.
- • Verifying the password against the stored one on local storage.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-  Main Page:
- • A Main component to display the user's wallet balance.
- • Implemented functionality to send transactions to other wallets.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-  Donation Page:
- • A Donation component where users can enter an amount to donate.
- • Subtraction of the donation amount from the user's wallet balance.
+### `npm test`
 
-Backend:
-  Set Up Hardhat:
- • Install Hardhat and initialize a new project
-npm install --save-dev hardhat
-npx hardhat
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-  Smart Contracts:
- • Solidity smart contract for user transaction sending and balance checking.
+### `npm run build`
 
-  Deploy Smart Contracts:
- • Deploy the smart contract to the Ethereum blockchain using Hardhat. // you can use sepolia as a testnet
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
